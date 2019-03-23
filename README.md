@@ -4,14 +4,21 @@ This repository includes information and resources for automatic misinformation 
 Fatemeh Torabi Asr and Maite Taboada, 2019. "Big Data and Quality Data for Fake News and Misinformation Detection". Journal of Big Data and Society.
 
 MinInfoText repository consists of three major sections:
+* List of datasets that we have collected by scraping fact-checking websites, whose basic function is to find and tag false news.
 * List of datasets that have been published in previous NLP papers and are usefull for building misinformation detection models.
-* List of datasets that we have collected by scraping fact-checking websites, whose basic function is to tag false news.
 * List of potential fact-checking websites that we have not yet tried in our data collection but could be useful in future work.
 
 
+## Data scraped from fact-checking websites
+
+We are developing a large dataset containing instances of fact-checked news articles. In order to do so, we make use of automatic scrapers to crawl fact-checking websites for false/true claims and headlines, links to the original news articles spreading them and the veracity labels given by the fact-checkers. Details of this process depend on the specific structure of the fact-checking website and the amount of information they include about the sources of a discussed piece of news. Currently, we have scraped and cleaned data from four fact-checking websites (snopes, buzzfeed, politifact and emergent). 
+
+We have published three large datasets through [our lab website](http://fakenews.ngrok.io/), which still require manual verification of the alignment between the claims and the original news texts (both available in our data tables). Our annotators have manually verified this alignment for a relatively small portion of the data (Snopes312, BuzzfeedUSE and BuzzfeedTop collections) and published the resulting dataset through [another github repository](https://github.com/sfu-discourse-lab/Misinformation_detection).
+
+We will soon publish a larger subset of the data that we have verified by recruiting annotators on FigureEight platform. So keep in touch for more to come!
 
 
-## Collections of veracity-labeled texts
+## Other collections of veracity-labeled texts
  
 | __Dataset__ | __Size and type__ | __Labeling system__ | __Notes__ |
 
@@ -33,11 +40,5 @@ Thorne   J,   Vlachos   A,   Christodoulopoulos   C   and   Mittal   A (2018)  |
 
 
 
-
-## Data scraped from fact-checking websites
-
-| __Dataset__ | __Size and type__ | __Labeling system__ | __Notes__ |
-
-Asr FT and Taboada M (2018) | The Snopes312 collection | 
 
 
