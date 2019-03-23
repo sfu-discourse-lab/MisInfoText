@@ -28,7 +28,7 @@ We also welcome suggestions for inclusion of other datasets in our list. Please 
 
 ## List of veracity-labeled text collections
  
-| __Dataset__ | __Size and type__ | __Labeling system__ | __Notes__ |
+| __Data paper__ | __Size and type__ | __Labeling system__ | __Notes__ |
 
 Allcott H and Gentzkow M (2017) | 156 news articles | 5-way (false to true) | Collected from Snopes, Politifact and Buzzfeed fact-checking pages, focused on 2016 US election
 
