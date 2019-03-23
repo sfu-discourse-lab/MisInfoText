@@ -22,7 +22,8 @@ Please refer to the following papers for details on the data collection process 
 
 We will soon publish a larger dataset that we have verified by recruiting annotators on the [Figure Eight platform](https://www.figure-eight.com/). So please keep in touch for more to come! 
 
-We also welcome inquieries for inclusion of other dataset in our list. Please see what follows and let us know if you think your dataset should be listed too!
+We also welcome suggestions for inclusion of other datasets in our list. Please see what follows and let us know if you think your dataset can be listed too!
+
 
 
 ## List of veracity-labeled full text collections
@@ -54,7 +55,7 @@ Thorne   J,   Vlachos   A,   Christodoulopoulos   C   and   Mittal   A (2018)  |
 
 ## List of potential fact-checking websites
 
-We have investigated the following sources in our search for the fact-checking websites that can be pivoted for collecting news articles and veracity labels. The items marked by astrix are either currently under automatic scraping process or may be useful in the future. Our source to find verified fact-checkers in the first place is [poynter](https://ifcncodeofprinciples.poynter.org/signatories).
+We have investigated the following sources in our search for the fact-checking websites that can be pivoted in automatic data collection. The items marked by astrix are either currently under scraping at our lab or may be considered in the future. Our source to find verified fact-checkers in the first place is [poynter](https://ifcncodeofprinciples.poynter.org/signatories).
 
 | __Website__ | __Notes on automatic scraping possibility__ |
 
