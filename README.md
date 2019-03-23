@@ -16,16 +16,16 @@ We have published three large datasets through [our lab website](http://fakenews
 Please refer to the following papers for details on the data collection process and our automatic misinformation detection experiments:
 
 
-Fatemeh Torabi Asr and Maite Taboada, 2018. ["The Data Challenge in Misinformation Detection: Source Reputation vs. Content Veracity"](http://aclweb.org/anthology/W18-5502). In Proceedings of The First Workshop on Fact Extraction and Verification, EMNLP 2018.   
+* Fatemeh Torabi Asr and Maite Taboada, 2018. ["The Data Challenge in Misinformation Detection: Source Reputation vs. Content Veracity"](http://aclweb.org/anthology/W18-5502). In Proceedings of The First Workshop on Fact Extraction and Verification, EMNLP 2018.   
 
-Fatemeh Torabi Asr and Maite Taboada, 2019. "Big Data and Quality Data for Fake News and Misinformation Detection". Journal of Big Data and Society.   
+* Fatemeh Torabi Asr and Maite Taboada, 2019. "Big Data and Quality Data for Fake News and Misinformation Detection". Journal of Big Data and Society.   
 
 We will soon publish a larger dataset that we have verified by recruiting annotators on the [Figure Eight platform](https://www.figure-eight.com/). So please keep in touch for more to come! 
 
 We also welcome inquieries for inclusion of other dataset in our list. Please see what follows and let us know if you think your dataset should be listed too!
 
 
-## Other collections of veracity-labeled texts
+## List of veracity-labeled text collections
  
 | __Dataset__ | __Size and type__ | __Labeling system__ | __Notes__ |
 
@@ -45,7 +45,9 @@ Wang WY (2017)  | 12.8K short statements | 6-way (false to true) | Collected usi
 
 Thorne   J,   Vlachos   A,   Christodoulopoulos   C   and   Mittal   A (2018)  | 185K short statements and supporting/refuting Wikipedia documents | 2-way (original/mutated) | Originally developed for stance-detection. Mutated claims were artificially generated. 
 
+Asr FT, Taboada M (2019) | 1,380 news articles | 4-way (false, true, mixture, no factual content) | Collected using a pivot Buzzfeed dataset. Focused on the US election topic.
 
+Asr FT, Taboada M (2019) | 312 news articles | 5-way (false to true) | Collected from Snopes. Balanced by label. A variety of topics. Includes stance information (articles for or against a labeled claim).
 
 
 
