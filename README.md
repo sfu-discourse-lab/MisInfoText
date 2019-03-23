@@ -7,3 +7,12 @@ MinInfoText repository consists of three major sections:
 * List of potential fact-checking websites that we have not yet tried in our data collection but could be useful in future work.
 
 
+ 
+| __Dataset__ | __Size and type__ | __Labeling system__ | __Notes__ |
+
+allcott2017social | 156 news articles | 5-way (false to true) | Collected from Snopes, Politifact and Buzzfeed fact-checking pages, focused on 2016 US election
+
+ferreira2016emergent | 1,612 news articles | 2-way (false/true) | Unbalanced, originally developed for stance-detection 
+
+rubin2016usingSat | 360 news articles | 2-way (satirical/legitimate) | Balanced by topic and label. A variety of topics. 
+
