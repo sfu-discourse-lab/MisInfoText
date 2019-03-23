@@ -45,9 +45,11 @@ Wang WY (2017)  | 12.8K short statements | 6-way (false to true) | Collected usi
 
 Thorne   J,   Vlachos   A,   Christodoulopoulos   C   and   Mittal   A (2018)  | 185K short statements and supporting/refuting Wikipedia documents | 2-way (original/mutated) | Originally developed for stance-detection. Mutated claims were artificially generated. 
 
-Asr FT, Taboada M (2019) | 1,380 news articles | 4-way (false, true, mixture, no factual content) | Collected using a pivot Buzzfeed dataset. Focused on the US election topic.
+[Asr FT, Taboada M (2019)](https://github.com/sfu-discourse-lab/Misinformation_detection/blob/master/buzzfeed-v02-originalLabels.txt.zip) | 1,380 news articles | 4-way (false, true, mixture, no factual content) | Collected using a pivot Buzzfeed dataset. Focused on the US election topic.
 
-Asr FT, Taboada M (2019) | 312 news articles | 5-way (false to true) | Collected from Snopes. Balanced by label. A variety of topics. Includes stance information (articles for or against a labeled claim).
+[Asr FT, Taboada M (2019)](https://github.com/sfu-discourse-lab/Misinformation_detection/blob/master/buzzfeed-top.csv.zip) | 33 news articles | 4-way (false, true, mixture, no factual content) | Collected using a pivot Buzzfeed dataset. A variety of topics.
+
+[Asr FT, Taboada M (2019)](https://github.com/sfu-discourse-lab/Misinformation_detection/blob/master/snopes_checked_v02.csv.zip) | 312 news articles | 5-way (false to true) | Collected from Snopes. Balanced by label. A variety of topics. Includes stance information (articles for or against a labeled claim).
 
 
 
