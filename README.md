@@ -1,9 +1,9 @@
 # MisInfoText
-This repository includes information and resources for automatic misinformation detection, which has become an increasingly important topic in Natural Language Processing and applications for social good. By definition, misinformation refers to the distribution of false information (opposite to facts) in the context of news. In order to automatically detect instances of misinformation, one approach is to combine machine learning and computational linguistic techniques and train predictive models on labeled instances of news articles (fake/real or false/true items). In our attempt, we collect data from a variety of quality sources. In particular, we make sure that the **full text** of each news article and a relaiable **veracity label** indicative of its truth content is provided. 
+This repository includes information and resources for automatic misinformation detection, which has become an increasingly important topic in Natural Language Processing. By definition, misinformation refers to the distribution of false information (opposite to facts) in the context of news. In order to automatically detect instances of misinformation, one approach is to combine machine learning and computational linguistic techniques to build predictive models on labeled instances of news articles (fake/real or false/true items). Such models could then be applied to an unseen news article and score its veracity with respect to its linguistic characteristics. At the [Discourse Processing Lab](http://www.sfu.ca/discourse-lab/software_and_data/demo.html), we have started a project to collect data suitable for automatic misinformation detection from a variety of quality sources. In particular, we make sure that the **full text** of each news article and a reliable **veracity label** indicative of its truth content is provided in our data collections.
 
 MinInfoText repository consists of three major sections:
-* List of datasets that we have collected by scraping fact-checking websites, whose basic function is to find and tag false news.
-* List of other datasets that have been published in previous NLP papers and are usefull for building misinformation detection models.
+* List of datasets that we have collected by scraping fact-checking websites, whose basic function is to find and tag suspicious news.
+* List of other datasets that have been published in previous NLP papers and are useful for building misinformation detection models.
 * List of potential fact-checking websites that we have not yet used in our data collection effort but could be employed in future work.
 
 
@@ -55,7 +55,7 @@ Thorne   J,   Vlachos   A,   Christodoulopoulos   C   and   Mittal   A (2018)  |
 
 ## List of potential fact-checking websites
 
-We have investigated the following sources in our search for the fact-checking websites that can be pivoted in automatic data collection. The items marked by astrix are either currently under scraping at our lab or may be considered in the future. Our source to find verified fact-checkers in the first place is [poynter](https://ifcncodeofprinciples.poynter.org/signatories).
+We have investigated the following sources in our search for the fact-checking websites that can be pivoted in automatic data collection. The items marked by star are either currently under scraping at our lab or may be considered in the future. Our source to find verified fact-checkers in the first place is [poynter](https://ifcncodeofprinciples.poynter.org/signatories).
 
 | __Website__ | __Notes on automatic scraping possibility__ |
 
@@ -78,5 +78,6 @@ We have investigated the following sources in our search for the fact-checking w
 * AP Fact Check - no labels, no apparent pattern 
 * Climate Feedback* - very clear pattern, format and sources; however, a variety of labels
 * FactCheck Northern Ireland - no labels, format or pattern
+
 
 
