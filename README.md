@@ -1,7 +1,5 @@
 # MisInfoText
-This repository includes information and resources for automatic misinformation detection, which has become an increasingly important topic in Natural Language Processing and applications for social good. By definition, misinformation refers to the distribution of false information (opposite to facts) in the context of news. In order to automatically detect instances of misinformation, one approach is to combine machine learning and computational linguistic techniques and train predictive models on labeled instances of news articles (fake/real or false/true items). In our attempt, we collect data from a variety of quality sources. In particular, we make sure that the **full text** of each news article and a relaiable **veracity label** indicative of its truth content is provided. For details on the criteria of a dataset to be included in our list please refer to the following paper:
-
-Fatemeh Torabi Asr and Maite Taboada, 2019. "Big Data and Quality Data for Fake News and Misinformation Detection". Journal of Big Data and Society.
+This repository includes information and resources for automatic misinformation detection, which has become an increasingly important topic in Natural Language Processing and applications for social good. By definition, misinformation refers to the distribution of false information (opposite to facts) in the context of news. In order to automatically detect instances of misinformation, one approach is to combine machine learning and computational linguistic techniques and train predictive models on labeled instances of news articles (fake/real or false/true items). In our attempt, we collect data from a variety of quality sources. In particular, we make sure that the **full text** of each news article and a relaiable **veracity label** indicative of its truth content is provided. 
 
 MinInfoText repository consists of three major sections:
 * List of datasets that we have collected by scraping fact-checking websites, whose basic function is to find and tag false news.
@@ -13,9 +11,18 @@ MinInfoText repository consists of three major sections:
 
 We are developing a large dataset containing instances of fact-checked news articles. In order to do so, we make use of automatic scrapers to crawl fact-checking websites for false/true claims and headlines, links to the original news articles spreading them and the veracity labels given by the fact-checkers. Details of this process depend on the specific structure of the fact-checking website and the amount of information they include about the sources of a discussed piece of news. Currently, we have scraped and cleaned data from four fact-checking websites (snopes, buzzfeed, politifact and emergent). 
 
-We have published three large datasets through [our lab website](http://fakenews.ngrok.io/), which still require manual verification of the alignment between the claims and the original news texts (both available in our data tables). Our annotators have manually verified this alignment for a relatively small portion of the data (Snopes312, BuzzfeedUSE and BuzzfeedTop collections) and published the resulting dataset through [another github repository](https://github.com/sfu-discourse-lab/Misinformation_detection).
+We have published three large datasets through [our lab website](http://fakenews.ngrok.io/), which still require manual verification of the alignment between the claims and the original news texts (both available in our data tables). Our annotators have manually verified this alignment for a relatively small portion of the data (Snopes312, BuzzfeedUSE and BuzzfeedTop collections) and published the resulting dataset through [another github repository](https://github.com/sfu-discourse-lab/Misinformation_detection). 
 
-We will soon publish a larger subset of the data that we have verified by recruiting annotators on FigureEight platform. So keep in touch for more to come!
+Please refer to the following papers for details on the data collection process and our automatic misinformation detection experiments:
+
+
+Fatemeh Torabi Asr and Maite Taboada, 2018. ["The Data Challenge in Misinformation Detection: Source Reputation vs. Content Veracity"](http://aclweb.org/anthology/W18-5502). In Proceedings of The First Workshop on Fact Extraction and Verification, EMNLP 2018.   
+
+Fatemeh Torabi Asr and Maite Taboada, 2019. "Big Data and Quality Data for Fake News and Misinformation Detection". Journal of Big Data and Society.   
+
+We will soon publish a larger dataset that we have verified by recruiting annotators on the [Figure Eight platform](https://www.figure-eight.com/). So please keep in touch for more to come! 
+
+We also welcome inquieries for inclusion of other dataset in our list. Please see what follows and let us know if you think your dataset should be listed too!
 
 
 ## Other collections of veracity-labeled texts
