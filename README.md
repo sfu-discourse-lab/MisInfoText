@@ -54,7 +54,7 @@ Thorne   J,   Vlachos   A,   Christodoulopoulos   C   and   Mittal   A (2018)  |
 
 ## List of potential fact-checking websites
 
-We have investigated the following sources in our search for the fact-checking websites that can be pivoted for collecting news articles and veracity labels. The items marked by astrix are either currently under automatic scraping process or may be useful in the future.
+We have investigated the following sources in our search for the fact-checking websites that can be pivoted for collecting news articles and veracity labels. The items marked by astrix are either currently under automatic scraping process or may be useful in the future. Our source to find verified fact-checkers in the first place is [poynter](https://ifcncodeofprinciples.poynter.org/signatories).
 
 | __Website__ | __Notes on automatic scraping possibility__ |
 
