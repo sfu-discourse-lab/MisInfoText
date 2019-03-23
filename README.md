@@ -26,7 +26,7 @@ We also welcome suggestions for inclusion of other datasets in our list. Please 
 
 
 
-## List of veracity-labeled full text collections
+## List of veracity-labeled text collections
  
 | __Dataset__ | __Size and type__ | __Labeling system__ | __Notes__ |
 
