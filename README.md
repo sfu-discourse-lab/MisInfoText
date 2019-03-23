@@ -58,24 +58,24 @@ We have investigated the following sources in our search for the fact-checking w
 
 | __Website__ | __Notes on automatic scraping possibility__ |
 
-BOOM - poor format to extract data from, labels not present almost all of the time
-Check Your Fact* - there looks to be a pattern and data extracting could work, clear format
-Factcheck.org* - good format in the debunking fact section 
-Ferret Fact Service* - data extraction may work, labels (mfalse, false, true, mtrue, halftrue)  
-Full Fact - little labels but may be able to conclude with the paragraph on the side  
-Lead Stories - no pattern suitable for automatic data extraction
-Pesa Check* - clear labels, clear format and pattern, may be able to extract
-PolitiFact* - currently using
-Rappler - no labels, would be extremely difficult to extract
-RMIT ABC Fact Check - many different labels all over the place, very hard to generalize 
-Snopes* - currently using
-South Asia Check - no labels, format unclear
-The Conversation FactCheck - formal unclear, pattern very inconsistent
-TheJournal.ie Fact Check* - clear pattern and labels, possibility for data extraction 
-The Washington Post Fact Checker* - labels, clear pattern, possibility for data extraction 
-VoxCheck - very in depth analysis, few labels, not necessarily news stories but long term coverage of an event, will be very difficult to extract data
-AP Fact Check - no labels, no apparent pattern 
-Climate Feedback* - very clear pattern, format and sources; however, a variety of labels
-FactCheck Northern Ireland - no labels, format or pattern
+* BOOM - poor format to extract data from, labels not present almost all of the time
+* Check Your Fact* - there looks to be a pattern and data extracting could work, clear format
+* Factcheck.org* - good format in the debunking fact section 
+* Ferret Fact Service* - data extraction may work, labels (mfalse, false, true, mtrue, halftrue)  
+* Full Fact - little labels but may be able to conclude with the paragraph on the side  
+* Lead Stories - no pattern suitable for automatic data extraction
+* Pesa Check* - clear labels, clear format and pattern, may be able to extract
+* PolitiFact* - currently using
+* Rappler - no labels, would be extremely difficult to extract
+* RMIT ABC Fact Check - many different labels all over the place, very hard to generalize 
+* Snopes* - currently using
+* South Asia Check - no labels, format unclear
+* The Conversation FactCheck - formal unclear, pattern very inconsistent
+* TheJournal.ie Fact Check* - clear pattern and labels, possibility for data extraction 
+* The Washington Post Fact Checker* - labels, clear pattern, possibility for data extraction 
+* VoxCheck - very in depth analysis, few labels, not necessarily news stories but long term coverage of an event, will be very difficult to extract data
+* AP Fact Check - no labels, no apparent pattern 
+* Climate Feedback* - very clear pattern, format and sources; however, a variety of labels
+* FactCheck Northern Ireland - no labels, format or pattern
 
 
