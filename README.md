@@ -30,7 +30,7 @@ We also welcome suggestions for inclusion of other datasets in our list. Please 
 
 | __Data paper__ | __Size and type__ | __Labeling system__ | __Notes__ |
 
-Nielsen D and McConville R (2022) | 12,914 claims, 21,565,018 tweets, 1,986,354 users, 10,920 articles, 6,573 images | 2-way (misinformation and factual) | Collected from 115 different fact-checking organisations in 41 different languages. Features dozens of different events and topics.
+[Nielsen D and McConville R (2022)](https://mumin-dataset.github.io/) | 12,914 claims, 21,565,018 tweets, 1,986,354 users, 10,920 articles, 6,573 images | 2-way (misinformation and factual) | Collected from 115 different fact-checking organisations in 41 different languages. Features dozens of different events and topics.
 
 Allcott H and Gentzkow M (2017) | 156 news articles | 5-way (false to true) | Collected from Snopes, Politifact and Buzzfeed fact-checking pages, focused on 2016 US election
 
