@@ -9,42 +9,44 @@ MinInfoText repository consists of three major sections:
 
 ## Data scraped from fact-checking websites
 
-We are developing a large dataset containing instances of fact-checked news articles. In order to do so, we make use of automatic scrapers to crawl fact-checking websites for false/true claims and headlines, links to the original news articles spreading them and the veracity labels given by the fact-checkers. Details of this process depend on the specific structure of the fact-checking website and the amount of information they include about the sources of a discussed piece of news. Currently, we have scraped and cleaned data from four fact-checking websites (snopes, buzzfeed, politifact and emergent). 
+We are developing a large dataset containing instances of fact-checked news articles. In order to do so, we make use of automatic scrapers to crawl fact-checking websites for false/true claims and headlines, links to the original news articles spreading them and the veracity labels given by the fact-checkers. Details of this process depend on the specific structure of the fact-checking website and the amount of information they include about the sources of a discussed piece of news. Currently, we have scraped and cleaned data from four fact-checking websites (snopes, buzzfeed, politifact and emergent).
 
-We have published three large datasets through [our lab website](http://fakenews.research.sfu.ca/), which still require manual verification of the alignment between the claims and the original news texts (both available in our data tables). Our annotators have manually verified this alignment for a relatively small portion of the data (Snopes312, BuzzfeedUSE and BuzzfeedTop collections) and published the resulting dataset through [another github repository](https://github.com/sfu-discourse-lab/Misinformation_detection). 
+We have published three large datasets through [our lab website](http://fakenews.research.sfu.ca/), which still require manual verification of the alignment between the claims and the original news texts (both available in our data tables). Our annotators have manually verified this alignment for a relatively small portion of the data (Snopes312, BuzzfeedUSE and BuzzfeedTop collections) and published the resulting dataset through [another github repository](https://github.com/sfu-discourse-lab/Misinformation_detection).
 
 Please refer to the following papers for details on the data collection process and our automatic misinformation detection experiments:
 
 
-* Fatemeh Torabi Asr and Maite Taboada, 2018. ["The Data Challenge in Misinformation Detection: Source Reputation vs. Content Veracity"](http://aclweb.org/anthology/W18-5502). In Proceedings of The First Workshop on Fact Extraction and Verification, EMNLP 2018.   
+* Fatemeh Torabi Asr and Maite Taboada, 2018. ["The Data Challenge in Misinformation Detection: Source Reputation vs. Content Veracity"](http://aclweb.org/anthology/W18-5502). In Proceedings of The First Workshop on Fact Extraction and Verification, EMNLP 2018.
 
-* Fatemeh Torabi Asr and Maite Taboada, 2019. "Big Data and Quality Data for Fake News and Misinformation Detection". Journal of Big Data and Society.   
+* Fatemeh Torabi Asr and Maite Taboada, 2019. "Big Data and Quality Data for Fake News and Misinformation Detection". Journal of Big Data and Society.
 
-We will soon publish a larger dataset that we have verified by recruiting annotators on the [Figure Eight platform](https://www.figure-eight.com/). So please keep in touch for more to come! 
+We will soon publish a larger dataset that we have verified by recruiting annotators on the [Figure Eight platform](https://www.figure-eight.com/). So please keep in touch for more to come!
 
 We also welcome suggestions for inclusion of other datasets in our list. Please see what follows and let us know if you think your dataset can be listed too!
 
 
 
 ## List of veracity-labeled text collections
- 
+
 | __Data paper__ | __Size and type__ | __Labeling system__ | __Notes__ |
+
+[Nielsen D and McConville R (2022)](https://mumin-dataset.github.io/) | 12,914 claims, 21,565,018 tweets, 1,986,354 users, 10,920 articles, 6,573 images | 2-way (misinformation and factual) | Collected from 115 different fact-checking organisations in 41 different languages. Features dozens of different events and topics.
 
 Allcott H and Gentzkow M (2017) | 156 news articles | 5-way (false to true) | Collected from Snopes, Politifact and Buzzfeed fact-checking pages, focused on 2016 US election
 
-Ferreira W and Vlachos A (2016) | 1,612 news articles | 2-way (false/true) | Collected from Emergent.org, unbalanced, originally developed for stance-detection 
+Ferreira W and Vlachos A (2016) | 1,612 news articles | 2-way (false/true) | Collected from Emergent.org, unbalanced, originally developed for stance-detection
 
-Rubin VL, Conroy NJ, Chen Y and Cornwell S (2016) | 360 news articles | 2-way (satirical/legitimate) | Balanced by topic and label. A variety of topics. 
+Rubin VL, Conroy NJ, Chen Y and Cornwell S (2016) | 360 news articles | 2-way (satirical/legitimate) | Balanced by topic and label. A variety of topics.
 
 Zhang  AX,  Ranganathan  A,  Metz  SE,  et al. (2018) | 40 news articles | Multiple (credibility indicators) | Continuous effort with the future goal of annotating 10,000 articles.
 
-Perez-Rosas   V,   Kleinberg   B,   Lefevre   A   and   Mihalcea   R (2017) | 480 news articles | 2-way (fake/legitimate) | Balanced by topic and label. Fake items were artificially generated by Turkers. 
+Perez-Rosas   V,   Kleinberg   B,   Lefevre   A   and   Mihalcea   R (2017) | 480 news articles | 2-way (fake/legitimate) | Balanced by topic and label. Fake items were artificially generated by Turkers.
 
-Perez-Rosas   V,   Kleinberg   B,   Lefevre   A   and   Mihalcea   R (2017) | 200 news articles | 2-way (fake/legitimate) | Balanced by topic and label. Focused on celebrity stories. 
+Perez-Rosas   V,   Kleinberg   B,   Lefevre   A   and   Mihalcea   R (2017) | 200 news articles | 2-way (fake/legitimate) | Balanced by topic and label. Focused on celebrity stories.
 
 Wang WY (2017)  | 12.8K short statements | 6-way (false to true) | Collected using the Politifact API.
 
-Thorne   J,   Vlachos   A,   Christodoulopoulos   C   and   Mittal   A (2018)  | 185K short statements and supporting/refuting Wikipedia documents | 2-way (original/mutated) | Originally developed for stance-detection. Mutated claims were artificially generated. 
+Thorne   J,   Vlachos   A,   Christodoulopoulos   C   and   Mittal   A (2018)  | 185K short statements and supporting/refuting Wikipedia documents | 2-way (original/mutated) | Originally developed for stance-detection. Mutated claims were artificially generated.
 
 [Asr FT, Taboada M (2019)](https://github.com/sfu-discourse-lab/Misinformation_detection/blob/master/buzzfeed-v02-originalLabels.txt.zip) | 1,380 news articles | 4-way (false, true, mixture, no factual content) | Collected using a pivot Buzzfeed dataset. Focused on the US election topic.
 
@@ -61,21 +63,21 @@ We have investigated the following sources in our search for the fact-checking w
 
 * BOOM - poor format to extract data from, labels not present almost all of the time
 * Check Your Fact* - there looks to be a pattern and data extracting could work, clear format
-* Factcheck.org* - good format in the debunking fact section 
-* Ferret Fact Service* - data extraction may work, labels (mfalse, false, true, mtrue, halftrue)  
-* Full Fact - little labels but may be able to conclude with the paragraph on the side  
+* Factcheck.org* - good format in the debunking fact section
+* Ferret Fact Service* - data extraction may work, labels (mfalse, false, true, mtrue, halftrue)
+* Full Fact - little labels but may be able to conclude with the paragraph on the side
 * Lead Stories - no pattern suitable for automatic data extraction
 * Pesa Check* - clear labels, clear format and pattern, may be able to extract
 * PolitiFact* - currently using
 * Rappler - no labels, would be extremely difficult to extract
-* RMIT ABC Fact Check - many different labels all over the place, very hard to generalize 
+* RMIT ABC Fact Check - many different labels all over the place, very hard to generalize
 * Snopes* - currently using
 * South Asia Check - no labels, format unclear
 * The Conversation FactCheck - formal unclear, pattern very inconsistent
-* TheJournal.ie Fact Check* - clear pattern and labels, possibility for data extraction 
-* The Washington Post Fact Checker* - labels, clear pattern, possibility for data extraction 
+* TheJournal.ie Fact Check* - clear pattern and labels, possibility for data extraction
+* The Washington Post Fact Checker* - labels, clear pattern, possibility for data extraction
 * VoxCheck - very in depth analysis, few labels, not necessarily news stories but long term coverage of an event, will be very difficult to extract data
-* AP Fact Check - no labels, no apparent pattern 
+* AP Fact Check - no labels, no apparent pattern
 * Climate Feedback* - very clear pattern, format and sources; however, a variety of labels
 * FactCheck Northern Ireland - no labels, format or pattern
 
