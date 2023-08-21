@@ -16,6 +16,8 @@ We have published three large datasets through [our lab website](http://fakenews
 Please refer to the following papers for details on the data collection process and our automatic misinformation detection experiments:
 
 
+* Fatemeh Torabi Asr, Mehrdad Mokhtari and Maite Taboada, to appear. ["Misinformation detection in news text: automatic methods and data limitations"](https://www.sfu.ca/~mtaboada/docs/publications/Asr_Mokhtari_Taboada.pdf). In Maci, S., M. Demata, M. McGlashan and P. Seargeant (eds.) [The Routledge Handbook of Discourse and Disinformation](https://www.routledge.com/The-Routledge-Handbook-of-Discourse-and-Disinformation/Maci-Demata-McGlashan-Seargeant/p/book/9781032124254). to appear.
+
 * Fatemeh Torabi Asr and Maite Taboada, 2018. ["The Data Challenge in Misinformation Detection: Source Reputation vs. Content Veracity"](http://aclweb.org/anthology/W18-5502). In Proceedings of The First Workshop on Fact Extraction and Verification, EMNLP 2018.
 
 * Fatemeh Torabi Asr and Maite Taboada, 2019. "Big Data and Quality Data for Fake News and Misinformation Detection". Journal of Big Data and Society.
